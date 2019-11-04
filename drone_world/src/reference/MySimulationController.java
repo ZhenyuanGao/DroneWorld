@@ -15,7 +15,7 @@ public class MySimulationController implements SimulationController {
 	
 	//1 for real-time
 	//100 (max) to run the simulator as fast as possible
-	static private final int SIMULATOR_SPEED= 20;
+	static private final int SIMULATOR_SPEED= 100;
 	
 	//While debugging it is helpful to not have the simulator quarantine your drones because
 	//if you pause your code to debug it, then that pause causes your drone to be quarantined
